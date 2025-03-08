@@ -1,0 +1,24 @@
+[application]
+
+[web.app]
+
+# HTML title tag content
+title = "flamingo"
+
+# include `assets` in web platform
+[web.resource]
+
+# Additional CSS style files
+style = ["assets/tailwind.css"]
+
+# Additional JavaScript files
+script = [
+    "https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js",
+    "https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"
+]
+
+[web.resource.dev]
+
+# Javascript code file
+# serve: [dev-server] only
+script = []
